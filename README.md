@@ -56,3 +56,23 @@ requests to Akeneo.
   - Akeneo - Families to Alumio Storage
   - Akeneo - Family Variants to Alumio Storage
 - Verify that storages have been updated by going to "Storages"
+
+### Fetching and transforming Akeneo products
+
+- In Alumio, go to "Transformers | Akeneo - Product - Fetch and restructure to Alumio Base"
+- Run the transformer tester with an empty object as input
+
+### Fetching and transforming Akeneo product models
+
+- In Alumio, go to "Transformers | Akeneo - ProductModel - Fetch and restructure to Alumio Base"
+- Run the transformer tester with an empty object as input
+
+### Transform product models to Spryker Abstract products
+
+- In Alumio, go to "Transformers | Spryker - Alumio Base Product to Spryker Product (Abstract)"
+- Select the test named "Sample" and run it.
+
+### Transform products to Spryker Concrete products
+
+- In Alumio, go to "Transformers | Spryker - Alumio Base Product to Spryker Product (Concrete)"
+- Select the test named "Sample" and run it.
