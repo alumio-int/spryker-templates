@@ -37,42 +37,32 @@ identifiers.
 
 ### Inserting or updating an abstract product in Spryker
 
-- In Alumio, go to "Transformers | Spryker - Persist - Abstract Products"
+- In Alumio, go to "Transformers | 	Spryker - Send - Abstract products"
 - Select "Minimal test" in the transformer tester and run it
 - Verify that the product has been created or updated in Spryker
 
-### Importing Akeneo data to storages
+### Importing and converting Akeneo data to storages
 
 Alumio uses data from storages to be able to create a complete product from Akeneo data without having to do many
 requests to Akeneo.
 
-- In Alumio, go to "Transformers"
-- Run the transformer tester with an empty object as input for the following transformers:
-  - Akeneo - Attribute Groups to Alumio Storage
-  - Akeneo - Attribute Options to Alumio Storage
-  - Akeneo - Attributes to Alumio Storage
-  - Akeneo - Categories to Alumio Storage
-  - Akeneo - Channels to Alumio Storage
-  - Akeneo - Families to Alumio Storage
-  - Akeneo - Family Variants to Alumio Storage
+- In Alumio, go to "Integrations - Incoming"
+- Run the following incoming configurations:
+  - Akeneo - Fetch - Attribute Groups
+  - Akeneo - Fetch - Attributes
+  - Akeneo - Fetch - Categories
+  - Akeneo - Fetch - Channels
+  - Akeneo - Fetch - Families
+  - Akeneo - Fetch - Product Models
+  - Akeneo - Fetch - Product Models with parent
+  - Akeneo - Fetch - Product Models without parent
+  - Akeneo - Fetch - Products
+  - Akeneo - Fetch - Products with parent
+  - Akeneo - Fetch - Products without parent
 - Verify that storages have been updated by going to "Storages"
-
-### Fetching and transforming Akeneo products
-
-- In Alumio, go to "Transformers | Akeneo - Product - Fetch and restructure to Alumio Base"
-- Run the transformer tester with an empty object as input
-
-### Fetching and transforming Akeneo product models
-
-- In Alumio, go to "Transformers | Akeneo - ProductModel - Fetch and restructure to Alumio Base"
-- Run the transformer tester with an empty object as input
+- Verify that products and product models have been converted to be compatible with Alumio
 
 ### Transform product models to Spryker Abstract products
 
-- In Alumio, go to "Transformers | Spryker - Alumio Base Product to Spryker Product (Abstract)"
-- Select the test named "Sample" and run it.
-
-### Transform products to Spryker Concrete products
-
-- In Alumio, go to "Transformers | Spryker - Alumio Base Product to Spryker Product (Concrete)"
+- In Alumio, go to "Transformers | Spryker - Convert - Abstract product - From Alumio base product model"
 - Select the test named "Sample" and run it.
