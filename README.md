@@ -66,3 +66,8 @@ requests to Akeneo.
 
 - In Alumio, go to "Transformers | Spryker - Convert - Abstract product - From Alumio base product model"
 - Select the test named "Sample" and run it.
+
+### Synchronize attributes from Akeneo to Spryker
+
+- In Alumio, go to "Integrations | Routes | Akeneo Synchronize Atrributes to Spryker"
+- Run the incoming configuration and the route
