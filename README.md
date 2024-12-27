@@ -71,3 +71,15 @@ requests to Akeneo.
 
 - In Alumio, go to "Integrations | Routes | Akeneo Synchronize Atrributes to Spryker"
 - Run the incoming configuration and the route
+
+### Syncing categories from Akeneo to Spryker
+
+- In Alumio, go to "Integrations → Routes → Akeneo Synchronize Categories to Spryker"
+- Run both the incoming and the route
+
+### Syncing full products from Akeneo to Spryker
+
+- In Alumio, go to "Integrations → Schedulers → Akeneo - Fetch complete products"
+- Set a schedule expression and enable the configuration
+- In Alumio, go to "Integrations → Schedulers → Spryker - Send complete products"
+- Set a schedule expression and enable the configuration
