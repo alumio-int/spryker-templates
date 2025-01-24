@@ -67,15 +67,39 @@ requests to Akeneo.
 - In Alumio, go to "Transformers | Spryker - Convert - Abstract product - From Alumio base product model"
 - Select the test named "Sample" and run it.
 
-### Synchronize attributes from Akeneo to Spryker
+### Manual syncing attributes from Akeneo to Spryker
 
-- In Alumio, go to "Integrations | Routes | Akeneo Synchronize Atrributes to Spryker"
-- Run the incoming configuration and the route
+- In Alumio, go to "Integrations → Incoming → Akeneo - Fetch - Families";
+- Run the incoming
+- In Alumio, go to "Integrations → Incoming → Akeneo - Fetch - Attributes";
+- Run the incoming
+- In Alumio, go to "Integrations → Incoming → Spryker - Fetch - Attributes";
+- Run the incoming
+- In Alumio, go to "Integrations → Route → Akeneo Synchronize Atrributes to Spryker";
+- Run the Route
 
-### Syncing categories from Akeneo to Spryker
+### Automatic syncing attributes from Akeneo to Spryker
 
-- In Alumio, go to "Integrations → Routes → Akeneo Synchronize Categories to Spryker"
-- Run both the incoming and the route
+- In Alumio, go to "Integrations → Schedulers → Akeneo - Fetch and check Attributes";
+- Set a schedule expression and enable the configuration;
+- In Alumio, go to "Integrations → Schedulers → Spryker - Send Attributes";
+- Set a schedule expression and enable the configuration.
+
+### Manual syncing categories from Akeneo to Spryker
+
+- In Alumio, go to "Integrations → Incoming → Akeneo - Fetch - Categories";
+- Run the incoming
+- In Alumio, go to "Integrations → Incoming → Spryker - Fetch - Categories";
+- Run the incoming
+- In Alumio, go to "Integrations → Route → Akeneo Synchronize Categories to Spryker";
+- Run the Route
+
+### Automatic syncing categories from Akeneo to Spryker
+
+- In Alumio, go to "Integrations → Schedulers → Akeneo - Fetch Categories";
+- Set a schedule expression and enable the configuration;
+- In Alumio, go to "Integrations → Schedulers → Spryker - Send Categories";
+- Set a schedule expression and enable the configuration.
 
 ### Syncing full products from Akeneo to Spryker
 
