@@ -5,5 +5,7 @@
  "target_system": "Alumio",
  "tags": ["product", "import", "akeneo", "alumio"],
  "version": "1.0.0",
- "alumio_version": "3.82.0-RC1"
+ "alumio_version": "3.82.0-RC1",
+ "last_reviewed" : "2025-02-13",
+ "status": "maintained"
 }
