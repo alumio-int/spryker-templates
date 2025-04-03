@@ -3,7 +3,7 @@
  "description": "Import Akeneo complete product data into Alumio storage.",
  "source_system": "Akeneo",
  "target_system": "Alumio",
- "tags": ["product", "import", "akeneo", "alumio"],
+ "tags": ["product", "import", "akeneo", "alumio","variant","children"],
  "version": "1.0.0",
  "alumio_version": "3.82.0-RC1",
  "last_reviewed" : "2025-02-13",
