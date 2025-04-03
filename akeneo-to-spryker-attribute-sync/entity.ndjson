@@ -1,0 +1,1 @@
+{"$schema":"https://di.schema.alumio.com/register.configuration.json","type":"entity","identifier":"base-attribute","name":"Base - Attribute","description":"","object":{"parameters":{"link":"https://schemas.alumio.com/v2/Attribute.json","schema":{"$ref":"https://schemas.alumio.com/v2/Attribute.json"},"identifierPath":["code"]}},"owner":null,"disabled":false}
