@@ -1,0 +1,11 @@
+{
+ "name": "Akeneo to Spryker – Category Sync",
+ "description": "Sync categories data from Akeneo into Spryker using the Akeneo Rest API and Spryker Rest API.",
+ "source_system": "Akeneo",
+ "target_system": "Spryker",
+ "tags": ["category", "sync", "akeneo", "spryker"],
+ "version": "1.0.0",
+ "alumio_version": "3.82.0-RC1",
+ "last_reviewed" : "2025-02-13",
+ "status": "maintained"
+}
