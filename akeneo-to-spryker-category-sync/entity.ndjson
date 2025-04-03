@@ -1,0 +1,1 @@
+{"$schema":"https://di.schema.alumio.com/register.configuration.json","type":"entity","identifier":"base-category","name":"Base - Category","description":"","object":{"parameters":{"schema":[],"identifierPath":["code"]}},"owner":null,"disabled":false}
