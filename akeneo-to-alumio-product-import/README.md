@@ -2,7 +2,7 @@
 
 Import Akeneo complete product data into Alumio storage.
 
-Here’s an example of the data structure that the incoming generate
+Here’s an example of the data structure that this configurations generate
 
 ![image](https://github.com/user-attachments/assets/d7bfa468-8033-4a17-9884-cf9c0501c3fe)
 
