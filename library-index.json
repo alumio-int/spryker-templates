@@ -1,0 +1,14 @@
+[ 
+  {
+   "path": "akeneo-to-alumio-product-import",
+   "meta": "akeneo-to-alumio-product-import/meta.json"
+ },
+ {
+   "path": "akeneo-to-spryker-attribute-sync",
+   "meta": "akeneo-to-spryker-attribute-sync/meta.json"
+ },
+ {
+   "path": "akeneo-to-spryker-category-sync",
+   "meta": "akeneo-to-spryker-category-sync/meta.json"
+ }
+]
