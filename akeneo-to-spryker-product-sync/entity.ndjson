@@ -1,1 +1,0 @@
-{"$schema":"https://di.schema.alumio.com/register.configuration.json","type":"entity","identifier":"base-product","name":"Base - Product","description":"","object":{"parameters":{"link":"https://schemas.alumio.com/v2/Product.json","schema":{"$ref":"https://schemas.alumio.com/v2/Product.json"},"identifierPath":["code"]}},"owner":null,"disabled":false}
