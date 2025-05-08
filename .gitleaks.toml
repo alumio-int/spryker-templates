@@ -1,0 +1,7 @@
+title = "Alumio ruleset for gitleaks"
+
+[[rules]]
+id = "alumio-password-literal"
+description = "Match any password field with a quoted value"
+regex = '''"password"\s*:\s*"(.*?)"'''
+tags = ["password", "alumio"]
