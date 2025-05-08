@@ -5,3 +5,9 @@ id = "alumio-password-literal"
 description = "Match any password field with a quoted value"
 regex = '''"password"\s*:\s*"(.*?)"'''
 tags = ["password", "alumio"]
+
+[[rules]]
+id = "alumio-password-literal"
+description = "Match any password field with a quoted value"
+regex = '''"clientSecret"\s*:\s*"(.*?)"'''
+tags = ["clientSecret", "alumio"]
